@@ -16,7 +16,7 @@ server<-shinyServer(function(input, output){
   output$text2<-renderText({ "Select a variable in the sidebar, specify options, and view output in the Map tab."})
   output$text3<-renderText({ "By James Hennessy and Ben Berger"})
   
-  output$text6<-renderText({ "James Hennessy is a HANDSOME and very AMATEUR dancer, who one day dreamed of being YUGE, but had to settle on DRY CLEANING PROFESSIONAL due to POLITICS"})
+  output$text6<-renderText({ "James Hennessy is a HANDSOME and very PROFFESIONAL dancer, who one day dreamed of being YUGE, but had to settle on DRY CLEANING PROFESSIONAL due to POLITICS"})
   output$text7<-renderText({"Ben Berger simply can't stack up 1000 PANCAKES, but most people would find this a difficult proposition."})
   
   
