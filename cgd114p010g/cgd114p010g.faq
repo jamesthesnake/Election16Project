@@ -1,0 +1,609 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+  <title>1:1,000,000-Scale Congressional Districts of the United States - 114th Congress</title>
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core"/>
+  <meta name="dc.title" content="1:1,000,000-Scale Congressional Districts of the United States - 114th Congress "/>
+  <meta name="dc.creator" content="U.S. Geological Survey "/>
+  <meta name="dc.subject" content="Boundaries "/>
+  <meta name="dc.description" content="This map layer portrays the Congressional districts of the United States, Puerto Rico, and the U.S. Virgin Islands, for the 114th Congress. "/>
+  <meta name="dc.publisher" content="National Geospatial Program, The National Map Small Scale"/>
+  <meta name="dc.date" content="201504"/>
+  <meta name="dc.type" content="data.Vector digital data"/>
+  <meta name="dc.format" content="ESRI Shapefile"/>
+  <meta name="dc.format" content="ESRI File Geodatabase"/>
+  <meta name="dc.identifier" content="http://nationalmap.gov/small_scale/atlasftp.html"/>
+  <meta name="dc.lang" content="en"/>
+  <meta name="dc.coverage.x.min" scheme="DD" content="170"/>
+  <meta name="dc.coverage.x.max" scheme="DD" content="-64"/>
+  <meta name="dc.coverage.y.min" scheme="DD" content="17"/>
+  <meta name="dc.coverage.y.max" scheme="DD" content="72"/>
+  <meta name="dc.coverage.placeName" content="United States"/>
+  <meta name="dc.coverage.placeName" content="US"/>
+  <meta name="dc.coverage.placeName" content="USA"/>
+  <meta name="dc.rights" content="Access constraints: None; Use constraints: None.  Acknowledgment of the National Geospatial Program, The National Map Small Scale and (or)"/>
+  <meta name="generated-from" content="c:/usgs/nonbase_layers/congress/cgd114p010g.txt"/>
+</head>
+<body>
+<h1>1:1,000,000-Scale Congressional Districts of the United States - 114th Congress</h1>
+Metadata also available as<p>
+<h4>Frequently anticipated questions:</h4>
+<ul>
+  <li><a href="#what">What does this data set describe?</a>
+    <ol>
+      <li><a href="#what.1">How should this data set be cited?</a></li>
+      <li><a href="#what.2">What geographic area does the data set cover?</a></li>
+      <li><a href="#what.3">What does it look like?</a></li>
+      <li><a href="#what.4">Does the data set describe conditions during a particular time period?</a></li>
+      <li><a href="#what.5">What is the general form of this data set?</a></li>
+      <li><a href="#what.6">How does the data set represent geographic features?</a></li>
+      <li><a href="#what.7">How does the data set describe geographic features?</a></li>
+    </ol>
+  </li>
+  <li><a href="#who">Who produced the data set?</a>
+    <ol>
+      <li><a href="#who.1">Who are the originators of the data set?</a></li>
+      <li><a href="#who.2">Who also contributed to the data set?</a></li>
+      <li><a href="#who.3">To whom should users address questions about the data?</a></li>
+    </ol>
+  </li>
+  <li><a href="#why">Why was the data set created?</a></li>
+  <li><a href="#how">How was the data set created?</a>
+    <ol>
+      <li><a href="#how.1">From what previous works were the data drawn?</a></li>
+      <li><a href="#how.2">How were the data generated, processed, and modified?</a></li>
+      <li><a href="#how.3">What similar or related data should the user be aware of?</a></li>
+    </ol>
+  </li>
+  <li><a href="#quality">How reliable are the data; what problems remain in the data set?</a>
+    <ol>
+      <li><a href="#quality.1">How well have the observations been checked?</a></li>
+      <li><a href="#quality.2">How accurate are the geographic locations?</a></li>
+      <li><a href="#quality.3">How accurate are the heights or depths?</a></li>
+      <li><a href="#quality.4">Where are the gaps in the data?  What is missing?</a></li>
+      <li><a href="#quality.5">How consistent are the relationships among the data, including topology?</a></li>
+    </ol>
+  </li>
+  <li><a href="#getacopy">How can someone get a copy of the data set?</a>
+    <ol>
+      <li><a href="#getacopy.0">Are there legal restrictions on access or use of the data?</a></li>
+      <li><a href="#getacopy.1">Who distributes the data?</a></li>
+      <li><a href="#getacopy.2">What's the catalog number I need to order this data set?</a></li>
+      <li><a href="#getacopy.3">What legal disclaimers am I supposed to read?</a></li>
+      <li><a href="#getacopy.4">How can I download or order the data?</a></li>
+    </ol>
+  </li>
+  <li><a href="#metaref">Who wrote the metadata?</a></li>
+</ul>
+<hr/>
+<h3><a name="what">What does this data set describe?</a></h3>
+<div style="margin-left: 2em">
+<dl>
+<dt><em>Title:</em>  
+<dd>
+
+1:1,000,000-Scale Congressional Districts of the United States - 114th Congress
+
+</dd>
+<dt><em>Abstract:</em>  
+<dd>
+
+This map layer portrays the Congressional districts of the United States, Puerto Rico, and
+the U.S. Virgin Islands, for the 114th Congress.
+
+</dd>
+<dt><em>Supplemental_Information:</em>  
+<dd>
+
+Many States have more detailed Congressional district information available online; please contact
+the applicable State government for further information.
+<br/>
+
+</dd>
+</dl>
+</div>
+<ol>
+<li><a name="what.1"><b>How should this data set be cited?</b></a><p>
+<blockquote>
+U.S. Geological Survey, 201504, 1:1,000,000-Scale Congressional Districts of the United States - 114th Congress: National Geospatial Program, The National Map Small Scale, Rolla, MO.<p>
+Online Links:
+<ul>
+<li><a href="http://nationalmap.gov/small_scale/atlasftp.html">http://nationalmap.gov/small_scale/atlasftp.html</a>
+</ul>
+<p>
+</blockquote>
+<p>
+</li>
+<li><a name="what.2"><b>What geographic area does the data set cover?</b></a><p>
+<dl>
+<dt><em>West_Bounding_Coordinate:</em>  170</dt>
+<dt><em>East_Bounding_Coordinate:</em>  -64</dt>
+<dt><em>North_Bounding_Coordinate:</em>  72</dt>
+<dt><em>South_Bounding_Coordinate:</em>  17</dt>
+</dl>
+<p>
+</li>
+<li><a name="what.3"><b>What does it look like?</b></a><p>
+<p>
+</li>
+<li><a name="what.4"><b>Does the data set describe conditions during a particular time period?</b></a><p>
+<dl>
+<dt>Calendar_Date: Apr-2015<dt><em>Currentness_Reference:</em>  Publication date</dt>
+</dl>
+<p>
+</li>
+<li><a name="what.5"><b>What is the general form of this data set?</b></a><p>
+<dl>
+<dt><em>Geospatial_Data_Presentation_Form:</em>  Vector digital data</dt>
+</dl>
+<p>
+</li>
+<li><a name="what.6"><b>How does the data set represent geographic features?</b></a><p>
+<ol type="a">
+<li><a name="what.6.a"><b>How are geographic features stored in the data set?</b></a><p>
+This is a Vector data set.
+It contains the following vector data types (SDTS terminology):
+<ul>
+<li>G-Polygon (438)
+</ul>
+<p>
+</li>
+<li><a name="what.6.b"><b>What coordinate system is used to represent geographic features?</b></a><p>
+Horizontal positions are specified in geographic coordinates, that is, latitude and longitude.
+Latitudes are given to the nearest 0.000278.
+Longitudes are given to the nearest 0.000278.
+Latitude and longitude values are specified in Decimal degrees.
+<p>
+The horizontal datum used is North American Datum of 1983.<br/>
+The ellipsoid used is GRS1980.<br/>
+The semi-major axis of the ellipsoid used is 6378137.<br/>
+The flattening of the ellipsoid used is 1/298.257222.<br/>
+<p>
+</li>
+</ol>
+<p>
+</li>
+<li><a name="what.7"><b>How does the data set describe geographic features?</b></a><p>
+<dl>
+<dt><b><tt>Congressional district</tt></b><dd>Legislatively defined subdivisions of a State for the purpose of electing representatives or
+delegates to the House of Representatives of the United States Congress.
+  (Source: National Atlas of the United States)
+<p>
+<dl>
+<dt><b><tt>Shape</tt></b><dd>The representation of the entity in the data.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Polygon</td><td>2-dimensional element
+</td></tr>
+</table>
+<p>
+<dt><b><tt>State</tt></b><dd>The name of the State or State equivalent in which the Congressional district is located.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th colspan="2">Formal codeset</th></tr>
+<tr><th>Codeset Name:</th><td>American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States</td></tr>
+<tr><th>Codeset Source:</th><td>U.S. Census Bureau</td></tr>
+</table>
+<p>
+<dt><b><tt>State_fips</tt></b><dd>The 2-digit FIPS code of the State or State equivalent.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th colspan="2">Formal codeset</th></tr>
+<tr><th>Codeset Name:</th><td>American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States</td></tr>
+<tr><th>Codeset Source:</th><td>U.S. Census Bureau</td></tr>
+</table>
+<p>
+<dt><b><tt>Cong_dist</tt></b><dd>The 2-digit code of the Congressional district, identifying a district within a State.  District
+numbers were taken from the source data; single-district States are given the number 01.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">00</td><td>The area is a district or territory which has a non-voting member in the House of
+Representatives.
+</td></tr>
+</table>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th colspan="2">Range of values</th></tr>
+<tr><th>Minimum:</th><td>01</td></tr>
+<tr><th>Maximum:</th><td>53</td></tr>
+</table>
+<p>
+<dt><b><tt>Cong_rep</tt></b><dd>The name of the Congressional representative for the district.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Vacant</td><td>There is currently no representative for the district.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid representatives’ names.
+</em>
+<p>
+<dt><b><tt>Party_aff</tt></b><dd>The party affiliation of the Congressional representative for the district.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Democrat</td><td>The representative is affiliated with the Democratic party.
+</td></tr>
+<tr><td valign="top">Republican</td><td>The representative is affiliated with the Republican party.
+</td></tr>
+<tr><td valign="top">Vacant</td><td>There is currently no representative for the district.
+</td></tr>
+</table>
+<p>
+<dt><b><tt>Url</tt></b><dd>The Uniform Resource Locator (URL) of the Congressional representative’s Web site.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Vacant</td><td>There is currently no representative for the district.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid URLs.
+</em>
+<p>
+<dt><b><tt>Senator_1</tt></b><dd>The name of one of the senators representing the State in which the congressional district falls.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.  The District of Columbia, Puerto Rico, and the U.S. Virgin
+Islands have non-voting congressional representatives but do not have senators.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid senators' names.
+</em>
+<p>
+<dt><b><tt>Sen1_party</tt></b><dd>The party affiliation of the senator.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Democrat</td><td>The senator is affiliated with the Democratic party.
+</td></tr>
+<tr><td valign="top">Republican</td><td>The senator is affiliated with the Republican party.
+</td></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.
+</td></tr>
+</table>
+<p>
+<dt><b><tt>Sen_1_url</tt></b><dd>The Uniform Resource Locator (URL) of the senator's Web site.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid URLs.
+</em>
+<p>
+<dt><b><tt>Senator_2</tt></b><dd>The name of the second of the senators representing the State in which the congressional district
+falls.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.  The District of Columbia, Puerto Rico, and the U.S. Virgin
+Islands have non-voting congressional representatives but do not have senators.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid senators' names.
+</em>
+<p>
+<dt><b><tt>Sen2_party</tt></b><dd>The party affiliation of the senator.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">Democrat</td><td>The senator is affiliated with the Democratic party.
+</td></tr>
+<tr><td valign="top">Independent</td><td>The senator is not affiliated with either the Democratic or the Republican party.
+</td></tr>
+<tr><td valign="top">Republican</td><td>The senator is affiliated with the Republican party.
+</td></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.
+</td></tr>
+</table>
+<p>
+<dt><b><tt>Sen_2_url</tt></b><dd>The Uniform Resource Locator (URL) of the senator's Web site.
+  (Source: National Atlas of the United States)<p></p>
+<p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Value</th><th>Definition</th></tr>
+<tr><td valign="top">N/A</td><td>The area does not have a senator.
+</td></tr>
+</table>
+<p>
+<em>
+There is no predefined set of valid URLs.
+</em>
+<p>
+</dl>
+<p>
+</dl>
+<p>
+</li>
+</ol>
+<p>
+<hr/>
+<h3><a name="who">Who produced the data set?</a></h3>
+<ol>
+<li><a name="who.1"><b>Who are the originators of the data set?</b></a> (may include formal authors, digital compilers, and editors)<p>
+<ul>
+<li>U.S. Geological Survey
+</ul>
+<p>
+</li>
+<li><a name="who.2"><b>Who also contributed to the data set?</b></a><p>
+<p>
+</li>
+<li><a name="who.3"><b>To whom should users address questions about the data?</b></a><p>
+<div style="margin-left: 2em">
+National Geospatial Program, The National Map Small Scale<br/>
+U.S. Geological Survey<br/>
+Reston, VA 20192<br/>
+<p>
+1-888-ASK-USGS (1-888-275-8747) (voice)<br/>
+tnm_help@usgs.gov<br/>
+<dl>
+<dt><em>Contact_Instructions:</em>  
+<dd>
+
+For questions about this map layer or metadata, please contact The National Map Small Scale using
+the information above, or through the U.S. Geological Survey contact page at
+<a href="http://www.usgs.gov/ask/">http://www.usgs.gov/ask/</a>.  For distribution questions, please see the Distribution Information
+elsewhere in this metadata.
+<br/>
+
+</dd>
+</dl>
+</div>
+<p>
+</li>
+</ol>
+<hr/>
+<h3><a name="why">Why was the data set created?</a></h3>
+<blockquote>
+These data are intended for geographic display and analysis at the national level, and for large
+regional areas.  The data should be displayed and analyzed at scales appropriate
+for 1:1,000,000-scale data.  No responsibility is assumed by the U.S. Geological Survey in the use
+of these data.
+</blockquote>
+<p>
+<hr/>
+<h3><a name="how">How was the data set created?</a></h3>
+<ol>
+<li><a name="how.1"><b>From what previous works were the data drawn?</b></a><p>
+<dl>
+<dt><b>CD113</b> (source 1 of 4)
+<dd>
+<blockquote>
+U.S. Geological Survey, 201304, 1:1,000,000-Scale Congressional Districts of the United States - 113th Congress: National Geospatial Program, The National Map Small Scale, Rolla, MO.<p>
+Online Links:
+<ul>
+<li><a href="http://nationalmap.gov/small_scale/atlasftp.html">http://nationalmap.gov/small_scale/atlasftp.html</a>
+</ul>
+<p>
+</blockquote>
+<dl>
+<dt><em>Type_of_Source_Media:</em>  Online</dt>
+<dt><em>Source_Contribution:</em>  Spatial and attribute information</dt>
+</dl>
+<p>
+<dt><b>Freshman114</b> (source 2 of 4)
+<dd>
+<blockquote>
+Wikipedia: The free encyclopedia, 20150315, List of freshman class members of the 114th United States Congress.<p>
+Online Links:
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/List_of_freshman_class_members_of_the_114th_United_States_Congress">http://en.wikipedia.org/wiki/List_of_freshman_class_members_of_the_114th_United_States_Congress</a>
+</ul>
+<p>
+</blockquote>
+<dl>
+<dt><em>Type_of_Source_Media:</em>  Online</dt>
+<dt><em>Source_Contribution:</em>  Attribute information</dt>
+</dl>
+<p>
+<dt><b>House</b> (source 3 of 4)
+<dd>
+<blockquote>
+United States House of Representatives, 2015, Directory of Representatives: United States House of Representatives, Washington, DC.<p>
+Online Links:
+<ul>
+<li><a href="http://www.house.gov/representatives/">http://www.house.gov/representatives/</a>
+</ul>
+<p>
+</blockquote>
+<dl>
+<dt><em>Type_of_Source_Media:</em>  Online</dt>
+<dt><em>Source_Contribution:</em>  Attribute information</dt>
+</dl>
+<p>
+<dt><b>Senate</b> (source 4 of 4)
+<dd>
+<blockquote>
+Senate, United States, 2015, Senators of the 114th Congress: United States Senate, Washington, DC.<p>
+Online Links:
+<ul>
+<li><a href="https://www.senate.gov/general/contact_information/senators_cfm.cfm">https://www.senate.gov/general/contact_information/senators_cfm.cfm</a>
+</ul>
+<p>
+</blockquote>
+<dl>
+<dt><em>Type_of_Source_Media:</em>  Online</dt>
+<dt><em>Source_Contribution:</em>  Attribute information</dt>
+</dl>
+<p>
+</dl>
+</li>
+<li><a name="how.2"><b>How were the data generated, processed, and modified?</b></a><p>
+<dl>
+<dt>Date: Mar-2015 (process 1 of 1)
+<dd>
+Starting with the data from CD113, the lists of Congressional representatives and senators were
+updated using the Freshman114, House, and Senate data sources.  There are no Congressional
+District boundary changes between the 113th and 114th Congress.
+<br/>
+In CD113, the Hawaii second district was mapped as multiple features.  Those features were merged
+into a single multi-part feature.
+<br/>
+The map layer was saved in shapefile and in file geodatabase formats.
+<p>
+Data sources used in this process:
+<ul>
+<li>CD113
+<li>Freshman114
+<li>House
+<li>Senate
+</ul>
+<p>
+</dl>
+</li>
+<li><a name="how.3"><b>What similar or related data should the user be aware of?</b></a><p>
+</li>
+</ol>
+<p>
+<hr/>
+<h3><a name="quality">How reliable are the data; what problems remain in the data set?</a></h3>
+<ol>
+<li><a name="quality.1"><b>How well have the observations been checked?</b></a><p>
+<p>
+</li>
+<li><a name="quality.2"><b>How accurate are the geographic locations?</b></a><p>
+<p>
+</li>
+<li><a name="quality.3"><b>How accurate are the heights or depths?</b></a><p>
+<p>
+</li>
+<li><a name="quality.4"><b>Where are the gaps in the data?  What is missing?</b></a><p>
+This map layer includes Congressional districts for the United States, Puerto Rico, and the U.S.
+Virgin Islands.
+<p>
+</li>
+<li><a name="quality.5"><b>How consistent are the relationships among the observations, including topology?</b></a><p>
+The map layer was checked for topological consistency using ArcGIS.  No other checks for logical
+consistency were performed on this map layer.
+</li>
+</ol>
+<p>
+<hr/>
+<h3><a name="getacopy">How can someone get a copy of the data set?</a></h3>
+<blockquote>
+<a name="getacopy.0"><b>Are there legal restrictions on access or use of the data?</b></a><p>
+<blockquote>
+<dl>
+<dt><em>Access_Constraints:</em>  None</dt>
+<dt><em>Use_Constraints:</em>  
+<dd>
+
+None.  Acknowledgment of the National Geospatial Program, The National Map Small Scale and (or)
+the U.S. Geological Survey would be appreciated in products derived from these data.
+
+</dd>
+</dl>
+</blockquote>
+</blockquote>
+<p>
+<ol>
+<li><a name="getacopy.1"><b>Who distributes the data set?</b></a> (Distributor 1 of 1)<p>
+<div style="margin-left: 2em">
+Earth Explorer, U.S. Geological Survey<br/>
+U.S. Geological Survey<br/>
+Sioux Falls, SD 57198-0001<br/>
+<p>
+605-594-6116 (voice)<br/>
+custserv@usgs.gov<br/>
+</div>
+</li>
+<li><a name="getacopy.2"><b>What's the catalog number I need to order this data set?</b></a><p>
+</li>
+<li><a name="getacopy.3"><b>What legal disclaimers am I supposed to read?</b></a><p>
+<blockquote>
+Although these data have been processed successfully on a computer system at the U.S. Geological
+Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility
+of the data on any other system, nor shall the act of distribution constitute any such warranty.
+No responsibility is assumed by the U.S. Geological Survey in the use of these data.
+</blockquote>
+<p>
+</li>
+<li><a name="getacopy.4"><b>How can I download or order the data?</b></a><p>
+<ul>
+<li><b>Availability in digital form:</b><p>
+<table border="0" cellpadding="2">
+<tr><th align="left" valign="top">Data&nbsp;format:</th>
+<td>
+ESRI Shapefile
+
+</td>
+</tr>
+<tr><th align="left" valign="top">Network&nbsp;links:</th>
+<td>
+<a href="http://nationalmap.gov/small_scale/atlasftp.html">http://nationalmap.gov/small_scale/atlasftp.html</a><br/>
+</td>
+</tr>
+</table>
+<p>
+<table border="0" cellpadding="2">
+<tr><th align="left" valign="top">Data&nbsp;format:</th>
+<td>
+ESRI File Geodatabase
+
+</td>
+</tr>
+<tr><th align="left" valign="top">Network&nbsp;links:</th>
+<td>
+<a href="http://nationalmap.gov/small_scale/atlasftp.html">http://nationalmap.gov/small_scale/atlasftp.html</a><br/>
+</td>
+</tr>
+</table>
+<p>
+<li><b>Cost to order the data:</b> None<p>
+</ul>
+<p>
+</li>
+</ol>
+<p>
+<hr/>
+<h3><a name="metaref">Who wrote the metadata?</a></h3>
+<dl>
+<dt>Dates:
+<dd>Last modified: 21-Apr-2015<br/>
+</dd>
+<dt>Metadata author:
+<dd>
+<div style="margin-left: 2em">
+National Geospatial Program, The National Map Small Scale<br/>
+U.S. Geological Survey<br/>
+Reston, VA 20192<br/>
+<p>
+1-888-ASK-USGS (1-888-275-8747) (voice)<br/>
+tnm_help@usgs.gov<br/>
+</div>
+</dd>
+<dt>Metadata standard: <dd>FGDC Content Standard for Digital Geospatial Metadata (FGDC-STD-001-1998)</dl>
+<p></p>
+<hr/>
+<span class="mp-generated">Generated by <a href="http://geology.usgs.gov/tools/metadata/tools/doc/mp.html"><tt>mp</tt></a> version 2.9.27 on Wed Apr 22 10:25:17 2015<br/></span>
+
+</body>
+</html>

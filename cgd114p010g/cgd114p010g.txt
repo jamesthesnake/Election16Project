@@ -1,0 +1,516 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: U.S. Geological Survey
+        Publication_Date: 201504
+        Title: 1:1,000,000-Scale Congressional Districts of the United States - 114th Congress
+        Geospatial_Data_Presentation_Form: Vector digital data
+        Publication_Information:
+          Publication_Place: Rolla, MO
+          Publisher: National Geospatial Program, The National Map Small Scale
+        Online_Linkage: http://nationalmap.gov/small_scale/atlasftp.html
+    Description:
+      Abstract:
+        This map layer portrays the Congressional districts of the United States, Puerto Rico, and 
+        the U.S. Virgin Islands, for the 114th Congress.  
+      Purpose:
+        These data are intended for geographic display and analysis at the national level, and for large 
+        regional areas.  The data should be displayed and analyzed at scales appropriate 
+        for 1:1,000,000-scale data.  No responsibility is assumed by the U.S. Geological Survey in the use 
+        of these data.
+      Supplemental_Information:
+        Many States have more detailed Congressional district information available online; please contact 
+        the applicable State government for further information.
+
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 201504
+      Currentness_Reference: Publication date
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: Semi-annually
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: 170
+        East_Bounding_Coordinate: -64
+        North_Bounding_Coordinate: 72
+        South_Bounding_Coordinate: 17
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: Boundaries
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: Boundaries
+        Theme_Keyword: Congress
+        Theme_Keyword: Congressional District boundaries
+        Theme_Keyword: Congressional Districts
+        Theme_Keyword: Delegate Districts
+        Theme_Keyword: House of Representatives
+        Theme_Keyword: State boundaries
+        Theme_Keyword: States
+        Theme_Keyword: Senate
+      Place:
+        Place_Keyword_Thesaurus:
+          ISO 3166 Country Codes, Organization for International Standards,
+          http://www.iso.org/iso/country_names_and_code_elements.
+        Place_Keyword: United States
+        Place_Keyword: US
+        Place_Keyword: USA
+      Place:
+        Place_Keyword_Thesaurus:
+          American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto 
+          Rico, and the Insular Areas of the United States; 
+          http://www.census.gov/geo/reference/ansi_statetables.html
+        Place_Keyword: Alabama
+        Place_Keyword: Alaska
+        Place_Keyword: Arizona
+        Place_Keyword: Arkansas
+        Place_Keyword: California
+        Place_Keyword: Colorado
+        Place_Keyword: Connecticut
+        Place_Keyword: Delaware
+        Place_Keyword: District of Columbia
+        Place_Keyword: Florida
+        Place_Keyword: Georgia
+        Place_Keyword: Hawaii
+        Place_Keyword: Idaho
+        Place_Keyword: Illinois
+        Place_Keyword: Indiana
+        Place_Keyword: Iowa
+        Place_Keyword: Kansas
+        Place_Keyword: Kentucky
+        Place_Keyword: Louisiana
+        Place_Keyword: Maine
+        Place_Keyword: Maryland
+        Place_Keyword: Massachusetts
+        Place_Keyword: Michigan
+        Place_Keyword: Minnesota
+        Place_Keyword: Mississippi
+        Place_Keyword: Missouri
+        Place_Keyword: Montana
+        Place_Keyword: Nebraska
+        Place_Keyword: Nevada
+        Place_Keyword: New Hampshire
+        Place_Keyword: New Jersey
+        Place_Keyword: New Mexico
+        Place_Keyword: New York
+        Place_Keyword: North Carolina
+        Place_Keyword: North Dakota
+        Place_Keyword: Ohio
+        Place_Keyword: Oklahoma
+        Place_Keyword: Oregon
+        Place_Keyword: Pennsylvania
+        Place_Keyword: Rhode Island
+        Place_Keyword: South Carolina
+        Place_Keyword: South Dakota
+        Place_Keyword: Tennessee
+        Place_Keyword: Texas
+        Place_Keyword: Utah
+        Place_Keyword: Vermont
+        Place_Keyword: Virginia
+        Place_Keyword: Washington
+        Place_Keyword: West Virginia
+        Place_Keyword: Wisconsin
+        Place_Keyword: Wyoming
+        Place_Keyword: Puerto Rico
+        Place_Keyword: Virgin Islands
+        Place_Keyword: U.S. Virgin Islands
+    Access_Constraints: None
+    Use_Constraints:
+      None.  Acknowledgment of the National Geospatial Program, The National Map Small Scale and (or) 
+      the U.S. Geological Survey would be appreciated in products derived from these data.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: National Geospatial Program, The National Map Small Scale
+        Contact_Address:
+          Address_Type: Mailing and physical address
+          Address: U.S. Geological Survey
+          Address: 511 National Center
+          Address: 12201 Sunrise Valley Drive 
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+        Contact_Electronic_Mail_Address: tnm_help@usgs.gov
+        Contact_Instructions:
+          For questions about this map layer or metadata, please contact The National Map Small Scale using 
+          the information above, or through the U.S. Geological Survey contact page at 
+          http://www.usgs.gov/ask/.  For distribution questions, please see the Distribution Information 
+          elsewhere in this metadata. 
+
+  Data_Quality_Information:
+    Logical_Consistency_Report:
+      The map layer was checked for topological consistency using ArcGIS.  No other checks for logical 
+      consistency were performed on this map layer.
+    Completeness_Report:
+      This map layer includes Congressional districts for the United States, Puerto Rico, and the U.S. 
+      Virgin Islands.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U.S. Geological Survey
+            Publication_Date: 201304
+            Title: 1:1,000,000-Scale Congressional Districts of the United States - 113th Congress
+            Publication_Information:
+              Publication_Place: Rolla, MO
+              Publisher: National Geospatial Program, The National Map Small Scale
+            Online_Linkage: http://nationalmap.gov/small_scale/atlasftp.html
+        Type_of_Source_Media: Online
+        Source_Time_Period_of_Content: 
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 201304
+          Source_Currentness_Reference: Publication date
+        Source_Citation_Abbreviation: CD113
+        Source_Contribution: Spatial and attribute information
+
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Wikipedia: The free encyclopedia
+            Publication_Date: 20150315
+            Title: List of freshman class members of the 114th United States Congress
+            Online_Linkage: 
+              http://en.wikipedia.org/wiki/List_of_freshman_class_members_of_the_114th_United_States_Congress
+        Type_of_Source_Media: Online
+        Source_Time_Period_of_Content: 
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 20150315
+          Source_Currentness_Reference: Retrieval date
+        Source_Citation_Abbreviation: Freshman114
+        Source_Contribution: Attribute information
+
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: United States House of Representatives
+            Publication_Date: 2015
+            Title: Directory of Representatives
+            Publication_Information:
+              Publication_Place: Washington, DC
+              Publisher: United States House of Representatives
+            Online_Linkage: http://www.house.gov/representatives/
+        Type_of_Source_Media: Online
+        Source_Time_Period_of_Content: 
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 201503
+          Source_Currentness_Reference: Retrieval date
+        Source_Citation_Abbreviation: House
+        Source_Contribution: Attribute information
+
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: United States Senate
+            Publication_Date: 2015
+            Title: Senators of the 114th Congress
+            Publication_Information:
+              Publication_Place: Washington, DC
+              Publisher: United States Senate
+            Online_Linkage: 
+              https://www.senate.gov/general/contact_information/senators_cfm.cfm
+        Type_of_Source_Media: Online
+        Source_Time_Period_of_Content: 
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 201503
+          Source_Currentness_Reference: Retrieval date 
+        Source_Citation_Abbreviation: Senate
+        Source_Contribution: Attribute information
+
+      Process_Step:
+        Process_Description: 
+          Starting with the data from CD113, the lists of Congressional representatives and senators were 
+          updated using the Freshman114, House, and Senate data sources.  There are no Congressional 
+          District boundary changes between the 113th and 114th Congress.
+
+          In CD113, the Hawaii second district was mapped as multiple features.  Those features were merged 
+          into a single multi-part feature.
+
+          The map layer was saved in shapefile and in file geodatabase formats.
+        Source_Used_Citation_Abbreviation: CD113
+        Source_Used_Citation_Abbreviation: Freshman114
+        Source_Used_Citation_Abbreviation: House
+        Source_Used_Citation_Abbreviation: Senate
+        Process_Date: 201503
+
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: G-Polygon 
+        Point_and_Vector_Object_Count: 438
+
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.000278
+        Longitude_Resolution: 0.000278
+        Geographic_Coordinate_Units: Decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum of 1983
+        Ellipsoid_Name: GRS1980
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257222
+
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: Congressional district
+        Entity_Type_Definition:
+          Legislatively defined subdivisions of a State for the purpose of electing representatives or 
+          delegates to the House of Representatives of the United States Congress.
+        Entity_Type_Definition_Source: National Atlas of the United States
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: The representation of the entity in the data.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Polygon
+            Enumerated_Domain_Value_Definition: 2-dimensional element
+            Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+      Attribute:
+        Attribute_Label: State
+        Attribute_Definition:
+          The name of the State or State equivalent in which the Congressional district is located.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Codeset_Domain:
+            Codeset_Name:
+              American National Standards Institute (ANSI) Codes for States, the District of Columbia, 
+              Puerto Rico, and the Insular Areas of the United States
+            Codeset_Source: U.S. Census Bureau
+      Attribute:
+        Attribute_Label: State_fips
+        Attribute_Definition: The 2-digit FIPS code of the State or State equivalent.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Codeset_Domain:
+            Codeset_Name:
+              American National Standards Institute (ANSI) Codes for States, the District of Columbia, 
+              Puerto Rico, and the Insular Areas of the United States
+            Codeset_Source: U.S. Census Bureau
+      Attribute:
+        Attribute_Label: Cong_dist
+        Attribute_Definition: 
+          The 2-digit code of the Congressional district, identifying a district within a State.  District 
+          numbers were taken from the source data; single-district States are given the number 01.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 00
+            Enumerated_Domain_Value_Definition:
+              The area is a district or territory which has a non-voting member in the House of 
+              Representatives.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 01
+            Range_Domain_Maximum: 53
+      Attribute:
+        Attribute_Label: Cong_rep
+        Attribute_Definition: The name of the Congressional representative for the district. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Vacant
+            Enumerated_Domain_Value_Definition: There is currently no representative for the district.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid representatives’ names.
+      Attribute:
+        Attribute_Label: Party_aff
+        Attribute_Definition: The party affiliation of the Congressional representative for the district. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Democrat
+            Enumerated_Domain_Value_Definition: The representative is affiliated with the Democratic party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Republican
+            Enumerated_Domain_Value_Definition: The representative is affiliated with the Republican party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Vacant
+            Enumerated_Domain_Value_Definition: There is currently no representative for the district.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+      Attribute:
+        Attribute_Label: Url
+        Attribute_Definition: 
+          The Uniform Resource Locator (URL) of the Congressional representative’s Web site. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Vacant
+            Enumerated_Domain_Value_Definition: There is currently no representative for the district.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid URLs.
+      Attribute:
+        Attribute_Label: Senator_1
+        Attribute_Definition: 
+          The name of one of the senators representing the State in which the congressional district falls. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: 
+              The area does not have a senator.  The District of Columbia, Puerto Rico, and the U.S. Virgin 
+              Islands have non-voting congressional representatives but do not have senators.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid senators' names.
+      Attribute:
+        Attribute_Label: Sen1_party
+        Attribute_Definition: The party affiliation of the senator. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Democrat
+            Enumerated_Domain_Value_Definition: The senator is affiliated with the Democratic party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Republican
+            Enumerated_Domain_Value_Definition: The senator is affiliated with the Republican party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: The area does not have a senator.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+      Attribute:
+        Attribute_Label: Sen_1_url
+        Attribute_Definition: The Uniform Resource Locator (URL) of the senator's Web site. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: The area does not have a senator.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid URLs.
+      Attribute:
+        Attribute_Label: Senator_2
+        Attribute_Definition: 
+          The name of the second of the senators representing the State in which the congressional district 
+          falls. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: 
+              The area does not have a senator.  The District of Columbia, Puerto Rico, and the U.S. Virgin 
+              Islands have non-voting congressional representatives but do not have senators.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid senators' names.
+      Attribute:
+        Attribute_Label: Sen2_party
+        Attribute_Definition: The party affiliation of the senator. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Democrat
+            Enumerated_Domain_Value_Definition: The senator is affiliated with the Democratic party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Independent
+            Enumerated_Domain_Value_Definition: 
+              The senator is not affiliated with either the Democratic or the Republican party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Republican
+            Enumerated_Domain_Value_Definition: The senator is affiliated with the Republican party.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: The area does not have a senator.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+      Attribute:
+        Attribute_Label: Sen_2_url
+        Attribute_Definition: The Uniform Resource Locator (URL) of the senator's Web site. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: N/A
+            Enumerated_Domain_Value_Definition: The area does not have a senator.
+            Enumerated_Domain_Value_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid URLs.
+
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Earth Explorer, U.S. Geological Survey
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: U.S. Geological Survey
+          Address: 47914 252nd Street
+          City: Sioux Falls
+          State_or_Province: SD
+          Postal_Code: 57198-0001
+        Contact_Voice_Telephone: 605-594-6116
+        Contact_Voice_Telephone: 866-573-3222
+        Contact_Electronic_Mail_Address: custserv@usgs.gov
+    Distribution_Liability:
+      Although these data have been processed successfully on a computer system at the U.S. Geological 
+      Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility 
+      of the data on any other system, nor shall the act of distribution constitute any such warranty.  
+      No responsibility is assumed by the U.S. Geological Survey in the use of these data.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ESRI Shapefile
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://nationalmap.gov/small_scale/atlasftp.html
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ESRI File Geodatabase
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://nationalmap.gov/small_scale/atlasftp.html
+      Fees: None
+
+  Metadata_Reference_Information:
+    Metadata_Date: 20150421
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: National Geospatial Program, The National Map Small Scale
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: U.S. Geological Survey
+          Address: 511 National Center
+          Address: 12201 Sunrise Valley Drive 
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+        Contact_Electronic_Mail_Address: tnm_help@usgs.gov
+    Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+    Metadata_Security_Information:
+      Metadata_Security_Classification_System: None
+      Metadata_Security_Classification: Unclassified
+      Metadata_Security_Handling_Description: None
