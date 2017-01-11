@@ -373,7 +373,7 @@ server<-shinyServer(function(input, output){
     #Population characteristics
     
       else if(input$whatData=="Population"){
-        input_var <- data$Pop
+        input_var <- log(data$Pop, 10)
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
@@ -401,7 +401,7 @@ server<-shinyServer(function(input, output){
     
       else if(input$whatData=="Unemployment rate"){
         input_var <- data$UnemploymentRate 
-        color <- colorNum(input$chooseColor, input_var)(input_var)
+        color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
       else if(input$whatData=="Labor force participation rate"){

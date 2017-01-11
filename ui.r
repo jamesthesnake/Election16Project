@@ -3,6 +3,7 @@ library(dplyr)
 library(rgdal)
 library(htmlwidgets)
 library(tools)
+library(colourpicker)
 library (leaflet)
 library(shiny)
 library(ggplot2)
@@ -14,7 +15,8 @@ ui <-shinyUI(pageWithSidebar(
   
   sidebarPanel(
     width = 2,
-    
+    colourInput("col","select first color","purple"),
+    colourInput("col2","select second color","green"),
     selectInput("chooseColor", "Choose color scheme:", selected = "RdPu", c("YlOrRd", "YlOrBr", "YlGnBu", "YlGn", "Reds", "RdPu", "Purples"
                                                          , "PuRd", "PuBuGn", "PuBu", "OrRd", "Oranges", "Greys", "Greens"
                                                          , "GnBu", "BuPu", "BuGn", "Blues")),
