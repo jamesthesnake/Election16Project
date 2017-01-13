@@ -7,11 +7,12 @@ library(colourpicker)
 library (leaflet)
 library(shiny)
 library(ggplot2)
+library(shinyURL)
 ui <-shinyUI(pageWithSidebar(
   
   headerPanel(h1( a( "US election choropleth map generator", style = "font-weight: 200; line-height: 1.1; color: #000000;")),
   ),
-  
+
   
   sidebarPanel(
     width = 2,
@@ -83,7 +84,8 @@ ui <-shinyUI(pageWithSidebar(
     checkboxInput("labelYes", "Labels"),
     checkboxInput("legendYes", "Legend"),
     downloadButton("downloadMap","download Map"),
-    downloadButton("downloadOutput","download csv")
+    downloadButton("downloadOutput","download csv"),
+    shinyURL.ui()
     ),
   
   

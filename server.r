@@ -7,8 +7,10 @@ library (leaflet)
 library(shiny)
 library(ggplot2)
 library(webshot)
-
-server<-shinyServer(function(input, output){
+library(shinyURL)
+server<-shinyServer(function(input, output,session){
+  shinyURL.server(session)
+  
   webshot::install_phantomjs()
   
   
