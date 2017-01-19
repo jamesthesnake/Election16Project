@@ -16,8 +16,8 @@ ui <-shinyUI(pageWithSidebar(
   
   sidebarPanel(
     width = 2,
-    colourInput("col","select first color","purple"),
-    colourInput("col2","select second color","green"),
+    colourInput("col","select first color","red"),
+    colourInput("col2","select second color","blue"),
     selectInput("chooseColor", "Choose color scheme:", selected = "RdPu", c("YlOrRd", "YlOrBr", "YlGnBu", "YlGn", "Reds", "RdPu", "Purples"
                                                          , "PuRd", "PuBuGn", "PuBu", "OrRd", "Oranges", "Greys", "Greens"
                                                          , "GnBu", "BuPu", "BuGn", "Blues")),
@@ -102,7 +102,7 @@ ui <-shinyUI(pageWithSidebar(
       
       # tabPanel("Graph", value="graph", plotOutput("graphTwo")),
       
-      tabPanel("County-level Map", value="state", leafletOutput("countyMap", height = 800, width = 1500)),
+      tabPanel("County-level Map", value="state", leafletOutput("countyMap", height = 800, width = 1500),leafletOutput("CongMap", height=800,width=1500)),
       # tabPanel("District-level Map", value="cong", leafletOutput("CongMap")),
       
       # tabPanel("Plot with Drug Rates", value="drugsM",plotOutput("graphThree")),

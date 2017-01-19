@@ -186,19 +186,19 @@ server<-shinyServer(function(input, output,session){
     else if ( input$whatData == "2016Results"){
       
       color <- rep('green',length(congResults$Party))
-      color[which(congResults$newWinner == "TRUE")]<- 'red'
-      color[which(congResults$newWinner == "FALSE")]<- 'blue'
+      color[which(congResults$newWinner == "TRUE")]<- input$col
+      color[which(congResults$newWinner == "FALSE")]<- input$col2
       
     }
     else if(input$whatData=="2016ResultsCongress"){
-      color <- rep('blue',length(congResults$Party))
-      color[which(congResults$Party == "Republican")]<- 'red'
+      color <- rep(input$col2,length(congResults$Party))
+      color[which(congResults$Party == "Republican")]<- input$col
     }
     else if(input$whatData=="PVI"){
       
       color <- rep('black',length(congResults$Party))
-      color[which(congResults$PVI=="D+")]<-"blue"
-      color[which(congResults$PVI=="R+")]<-"red"
+      color[which(congResults$PVI=="D+")]<-input$col2
+      color[which(congResults$PVI=="R+")]<-input$col
       
     }
     else if(input$whatData=="PVInum"){
@@ -301,22 +301,22 @@ server<-shinyServer(function(input, output,session){
       #Winner    
       if(input$whatData=="2016 Presidential election winner"){
         input_var <- data$TrumpWin
-        color <- rep('blue',ncounty)
-        color[input_var == 1]<- 'red'
+        color <- rep(input$col2,ncounty)
+        color[input_var == 1]<- input$col
         is_election = T
       }
       
       else if(input$whatData=="2012 Presidential election winner"){
         input_var <- data$gop_win_2012
-        color <- rep('blue',ncounty)
-        color[input_var == 1]<- 'red'
+        color <- rep(input$col2,ncounty)
+        color[input_var == 1]<- input$col
         is_election = T
       }
       
       else if(input$whatData=="2008 Presidential election winner"){
         input_var <- data$gop_win_2008
-        color <- rep('blue',ncounty)
-        color[input_var == 1]<- 'red'
+        color <- rep(input$col2,ncounty)
+        color[input_var == 1]<- input$col
         is_election = T
       }
         
