@@ -14,12 +14,32 @@ server<-shinyServer(function(input, output,session){
   webshot::install_phantomjs()
   
   
-  output$text1<-renderText({ "Generate maps of the United States by county for a collection of variables."})
-  output$text2<-renderText({ "Select a variable in the sidebar, specify options, and view output in the Map tab."})
-  output$text3<-renderText({ "By James Hennessy and Ben Berger"})
+  # output$text1<-renderText({ "Generate maps of the United States by county for a collection of variables."})
+  # output$text2<-renderText({ "Select a variable in the sidebar, specify options, and view output in the Map tab."})
+  # output$text3<-renderText({ "By James Hennessy and Ben Berger"})
   
-  output$text6<-renderText({ "James Hennessy is a HANDSOME and very PROFFESIONAL dancer, who one day dreamed of being YUGE, but had to settle on DRY CLEANING PROFESSIONAL due to POLITICS"})
-  output$text7<-renderText({"Ben Berger simply can't stack up 1000 PANCAKES, but most people would find this a difficult proposition."})
+  output$source1 <-renderText({ "Election results: Tony McGovern, The Guardian, Townhall.com
+                                https://github.com/tonmcg/County_Level_Election_Results_12-16"})
+                      
+  output$source2 <- renderText({"Demographic data: US 2010 Census
+                                https://www.census.gov/2010census/data/"})
+                                
+  output$source3  <- renderText({"Median age: US American Community Survey
+                                https://www.census.gov/programs-surveys/acs/"})
+                                
+  output$source4  <- renderText({"Population data: US 2010 Census & Gazetteer file
+                                https://www.census.gov/2010census/data/
+                                http://www.census.gov/geo/maps-data/data/gazetteer.html"})
+                                
+  output$source5  <- renderText({"Age-adjusted drug poisoning mortality: CDC
+                                https://blogs.cdc.gov/nchs-data-visualization/drug-poisoning-mortality/"})
+                                
+  output$source6 <- renderText({"Unemployment Rate, Labor Force Participation, Median Household Income: Bureau of Labor Statistics Current Population Survey:
+                                https://www.bls.gov/cps/data.htm"})
+                      
+  
+  #output$text6<-renderText({ "James Hennessy is a HANDSOME and very PROFFESIONAL dancer, who one day dreamed of being YUGE, but had to settle on DRY CLEANING PROFESSIONAL due to POLITICS"})
+  #output$text7<-renderText({"Ben Berger simply can't stack up 1000 PANCAKES, but most people would find this a difficult proposition."})
   
   
   st_fips <- read.csv("st_fips.csv")
@@ -186,19 +206,19 @@ server<-shinyServer(function(input, output,session){
     else if ( input$whatData == "2016Results"){
       
       color <- rep('green',length(congResults$Party))
-      color[which(congResults$newWinner == "TRUE")]<- input$col
-      color[which(congResults$newWinner == "FALSE")]<- input$col2
+      color[which(congResults$newWinner == "TRUE")]<- 'red'
+      color[which(congResults$newWinner == "FALSE")]<- 'blue'
       
     }
     else if(input$whatData=="2016ResultsCongress"){
-      color <- rep(input$col2,length(congResults$Party))
-      color[which(congResults$Party == "Republican")]<- input$col
+      color <- rep('blue',length(congResults$Party))
+      color[which(congResults$Party == "Republican")]<- 'red'
     }
     else if(input$whatData=="PVI"){
       
       color <- rep('black',length(congResults$Party))
-      color[which(congResults$PVI=="D+")]<-input$col2
-      color[which(congResults$PVI=="R+")]<-input$col
+      color[which(congResults$PVI=="D+")]<-'blue'
+      color[which(congResults$PVI=="R+")]<-'red'
       
     }
     else if(input$whatData=="PVInum"){
@@ -301,22 +321,22 @@ server<-shinyServer(function(input, output,session){
       #Winner    
       if(input$whatData=="2016 Presidential election winner"){
         input_var <- data$TrumpWin
-        color <- rep(input$col2,ncounty)
-        color[input_var == 1]<- input$col
+        color <- rep('blue',ncounty)
+        color[input_var == 1]<- 'red'
         is_election = T
       }
       
       else if(input$whatData=="2012 Presidential election winner"){
         input_var <- data$gop_win_2012
-        color <- rep(input$col2,ncounty)
-        color[input_var == 1]<- input$col
+        color <- rep('blue',ncounty)
+        color[input_var == 1]<- 'red'
         is_election = T
       }
       
       else if(input$whatData=="2008 Presidential election winner"){
         input_var <- data$gop_win_2008
-        color <- rep(input$col2,ncounty)
-        color[input_var == 1]<- input$col
+        color <- rep('blue',ncounty)
+        color[input_var == 1]<- 'red'
         is_election = T
       }
         
@@ -374,12 +394,12 @@ server<-shinyServer(function(input, output,session){
     
     #Population characteristics
     
-      else if(input$whatData=="Population"){
+      else if(input$whatData==  "Population (log scale)"){
         input_var <- log(data$Pop, 10)
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
-      else if(input$whatData=="Population density (persons per square mile)"){
+      else if(input$whatData=="Population density (persons per square mile, log scale)"){
         input_var <- log(data$PopDensity ,10)
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
@@ -391,27 +411,27 @@ server<-shinyServer(function(input, output,session){
     
     #Education
     
-      else if(input$whatData=="Bachelor's degree attainment"){
+      else if(input$whatData=="Bachelor's degree attainment (%)"){
         input_var <- data$BA
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
-      else if(input$whatData=="Drug overdose rate (age-adjusted)"){
+      else if(input$whatData=="Drug overdose rate (age-adjusted, deaths per 100,000 people)"){
         input_var <- data$DrugDeathRate 
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
-      else if(input$whatData=="Unemployment rate"){
+      else if(input$whatData=="Unemployment rate (%)"){
         input_var <- data$UnemploymentRate 
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
-      else if(input$whatData=="Labor force participation rate"){
+      else if(input$whatData=="Labor force participation rate (%)"){
         input_var <- data$LaborForce 
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
     
-      else if(input$whatData=="Median household income"){
+      else if(input$whatData=="Median household income (USD)"){
         input_var <- data$MedianHHIncome 
         color <- colorNumeric(input$chooseColor, input_var)(input_var)
       }
